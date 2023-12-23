@@ -1,0 +1,143 @@
+<!DOCTYPE html>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR MANAGEMENT SYSTEM</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+ </head>
+ <body>
+
+   <!-- Sidebar -->
+      <div class="sidebar">
+         <div class="sidebar-logo"></div>
+            <ul class="sidebar-list">
+
+               <li class="sidebar-item active">
+                  <a href="./pages/all-employees/employees.html">
+                     <i class='bx bxs-group'></i>
+                     <span class="sidebar-item__span">Employees</span>
+                  </a>
+               </li>
+
+               <li class="sidebar-item">
+                  <a href="./pages/employee/employee.html">
+                     <i class='bx bxs-user'></i>
+                     <span class="sidebar-item__span">Employee</span>
+                  </a>
+               </li>
+
+               <li class="sidebar-item">
+                  <a href="./index.html">
+                     <i class='bx bxs-dashboard'></i>
+                     <span class="sidebar-item__span">Home</span>
+                  </a>
+               </li>
+
+               <li class="sidebar-item">
+                  <a href="./pages/add-page/add.html">
+                     <i class='bx bxs-user-plus'></i>
+                     <span class="sidebar-item__span">Add</span>
+                  </a>
+               </li>
+
+               <li class="sidebar-item">
+                  <a href="./pages/edit-page/edit.html">
+                     <i class='bx bxs-eyedropper'></i>
+                     <span class="sidebar-item__span">Edit</span>
+                  </a>
+               </li>
+
+               <li class="sidebar-item logout">
+                  <a href="#">
+                     <i class='bx bx-log-in'></i>
+                     <span class="sidebar-item__span">Logout</span>
+                  </a>
+               </li>
+
+            </ul>
+      </div>
+
+
+      <!-- Header -->
+      <div class="main-content">
+         <div class="header">
+            <div class="header-title__wrapper">
+               <h1 class="header-title">HR MANAGEMENT SYSTEM</h1>
+            </div>
+            <nav class="header-nav nav">
+               <ul class="nav-list">
+                  <li class="nav-item">
+                     <a class="nav-link" href="./index.html">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="./pages/all-employees/employees.html">EMPLOYEES</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="./pages/employee/">EMPLOYEE</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+
+
+         <!-- Card container -->
+         <div class="card-container">
+            <div class="card-wrapper">
+               <div class="card-employees">
+                  <div class="card-header">
+                     <div class="card-employees__number">
+                        <h3 class="card-title">The number of all employees</h3>
+                        <p class="card-employees__amount">0</p>
+                     </div>
+                     <i class='bx bx-male-female dark-red'></i>
+                  </div>
+               </div>
+
+               <div class="card-employees light-purple">
+                  <div class="card-header">
+                     <div class="card-employees__number">
+                        <h3 class="card-title">The number of men</h3>
+                        <p class="card-employees__amount">0</p>
+                     </div>
+                     <i class='bx bx-male dark-purple' ></i>
+                  </div>
+               </div>
+
+               <div class="card-employees light-green">
+                  <div class="card-header">
+                     <div class="card-employees__number">
+                        <h3 class="card-title">The number of women</h3>
+                        <p class="card-employees__amount">0</p>
+                     </div>
+                     <i class='bx bx-female dark-green' ></i>
+                  </div>
+               </div>
+
+               <div class="card-employees light-blue">
+                  <div class="card-header">
+                     <div class="card-employees__number">
+                        <h3 class="card-title">The number of employees in each department</h3>
+                        <p class="card-employees__amount">0</p>
+                     </div>
+                     <i class='bx bxs-category dark-blue'></i>
+                  </div>
+               </div>
+
+               <div class="card-employees light-yellow">
+                  <div class="card-header">
+                     <div class="card-employees__number">
+                        <h3 class="card-title">Average age of an employee in the company</h3>
+                        <p class="card-employees__amount">0</p>
+                     </div>
+                     <i class='bx bxs-time dark-yellow'></i>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+ </body>
+ </html>
