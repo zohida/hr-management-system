@@ -171,7 +171,8 @@ body{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 30px;
+    margin: 0 auto;
 }
 
 .card-employees{
@@ -227,7 +228,7 @@ body{
     width: 60px;
     text-align: center;
     border-radius: 50%;
-    font-size: 1.5rem;
+    font-size: 30px;
 }
 
 .light-red {
