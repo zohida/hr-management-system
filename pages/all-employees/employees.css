@@ -1,0 +1,17 @@
+.filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+
+.link-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.link-wrapper a {
+    color: darkblue;
+    text-decoration: none;
+}

@@ -194,3 +194,22 @@ function updateData(index) {
     };
 }
 
+// Assume this function processes data and updates the DOM
+function showEmployeeData(data) {
+    document.getElementById('all-employees').querySelector('.card-employees__amount').textContent = data.allEmployees;
+    // Update other elements as needed...
+}
+
+// Fetch data and update the page on load
+document.addEventListener("DOMContentLoaded", function () {
+    fetchDataAndUpdatePage("employee");
+});
+
+function fetchDataAndUpdatePage(page) {
+    fetch(`./pages/${page}/${page}.json`)
+        .then(response => response.json())
+        .then(data => {
+            showEmployeeData(data);
+        })
+        .catch(error => console.error(`Error fetching data for ${page}:`, error));
+}

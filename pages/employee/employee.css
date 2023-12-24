@@ -63,3 +63,13 @@ body{
 label {
     margin-bottom: 10px;
 }
+
+.link-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.link-wrapper a {
+    color: darkblue;
+    text-decoration: none;
+}
